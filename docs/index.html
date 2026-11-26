@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Suchmaschinenoptimierung: Grundlagen und Praxis</title>
+<meta name="description" content="Seminararbeit zu SEO im Online-Marketing, Stand 2023, mit Hinweisen auf spätere Änderungen.">
+<style>
+:root{--bg:#fafaf7;--fg:#1d2327;--mut:#5b6670;--card:#fff;--line:#dde1e5;--acc:#1f5fbf;--acc2:#e8f0fc;--ok:#1b7f4b;--warn:#b25e00;--bad:#b3261e}
+@media (prefers-color-scheme:dark){:root{--bg:#14181c;--fg:#e8ebee;--mut:#9aa6b1;--card:#1c2228;--line:#2d363e;--acc:#6aa3ff;--acc2:#1d2a3d;--ok:#4cc38a;--warn:#f0a34a;--bad:#ff8a80}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+a{color:var(--acc)}
+header.top{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+header.top nav{max-width:980px;margin:auto;padding:10px 16px;display:flex;gap:18px;flex-wrap:wrap;align-items:center}
+header.top nav b{margin-right:auto}
+header.top a{text-decoration:none;font-size:14px}
+.wrap{max-width:980px;margin:auto;padding:0 16px}
+.hero{padding:48px 0 28px}
+.hero h1{font-size:clamp(26px,4.5vw,40px);line-height:1.2;margin:0 0 10px}
+.hero p.sub{font-size:18px;color:var(--mut);margin:0 0 16px;max-width:720px}
+.badges{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+.badge{background:var(--acc2);color:var(--acc);border-radius:99px;padding:3px 12px;font-size:13px}
+.btn{display:inline-block;background:var(--acc);color:#fff;border:0;border-radius:8px;padding:9px 16px;font-size:15px;text-decoration:none;cursor:pointer}
+.btn.sec{background:transparent;color:var(--acc);border:1px solid var(--acc)}
+section{padding:26px 0;border-top:1px solid var(--line)}
+h2{font-size:24px;margin:0 0 12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.card h3{margin:0 0 6px;font-size:16px}
+.note{border-left:4px solid var(--warn);background:var(--card);padding:10px 14px;border-radius:0 8px 8px 0;margin:12px 0}
+.proto{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+.proto label{font-size:14px;color:var(--mut)}
+.proto input[type=number],.proto input[type=text],.proto select,.proto textarea{background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:5px 8px;font:inherit;font-size:14px}
+.proto table{border-collapse:collapse;width:100%;font-size:14px}
+.proto th,.proto td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left}
+.proto button{background:var(--acc);color:#fff;border:0;border-radius:6px;padding:7px 12px;font:inherit;font-size:14px;cursor:pointer}
+.proto button.sec{background:transparent;color:var(--acc);border:1px solid var(--acc)}
+.proto button:disabled{opacity:.4;cursor:default}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:8px 0}
+.bar{height:14px;background:var(--acc);border-radius:4px;transition:width .2s}
+.mono{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px}
+pre.mono{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px;overflow:auto;margin:6px 0}
+ul.clean{padding-left:20px}
+footer{padding:28px 0 48px;color:var(--mut);font-size:14px;border-top:1px solid var(--line)}
+canvas{max-width:100%}
+.good{color:var(--ok)}.warnc{color:var(--warn)}.badc{color:var(--bad)}
+</style></head><body>
+<header class="top"><nav><b>SEO-Grundlagen</b><a href="#ueberblick">Überblick</a><a href="#prototyp">Prototyp</a><a href="#grenzen">Grenzen</a><a href="#unterlagen">Unterlagen</a></nav></header>
+<main class="wrap">
+<div class="hero"><h1>Suchmaschinenoptimierung: Grundlagen und Praxis</h1><p class="sub">Seminararbeit zu SEO im Online-Marketing, Stand 2023, mit Hinweisen auf spätere Änderungen.</p>
+<div class="badges"><span class="badge">Seminararbeit</span><span class="badge">Online-Marketing</span><span class="badge">Hochschule Ludwigshafen 2023</span></div>
+<a class="btn" href="#prototyp">Prototyp ausprobieren</a> <a class="btn sec" href="#unterlagen">Artikel und Folien</a></div>
+<section id="ueberblick"><h2>Worum geht es?</h2><p>Die Arbeit erklärt SEO als Teil des Online-Marketings, ordnet SEO-Ziele (SMART), die Funktionsweise von Suchmaschinen und Keywords ein und beschreibt die Praxis: Agenturen, Werkzeuge, On-Page-, Off-Page- und technische Optimierung sowie Controlling.</p>
+<div class="grid" style="margin-top:14px"><div class="card"><h3>Grundlagen</h3><span>Ziele, Suchmaschinen, Keywords</span></div><div class="card"><h3>On-Page</h3><span>Titel, Beschreibung, Überschriften, Bilder</span></div><div class="card"><h3>Technik und Off-Page</h3><span>Ladezeit, mobile Darstellung, Verlinkung</span></div><div class="card"><h3>Aktualität</h3><span>Stand 2023: FID wurde durch INP ersetzt, die Webmaster Tools heißen Search Console</span></div></div></section>
+<section id="prototyp"><h2>Prototyp: On-Page-Check</h2><p>Fügen Sie den HTML-Quelltext einer Seite ein. Der Check prüft einige klassische On-Page-Punkte. Die Grenzwerte sind gängige Richtwerte, keine offiziellen Vorgaben einer Suchmaschine.</p>
+<div class="proto"><textarea id="h" rows="9" style="width:100%" class="mono"></textarea><div class="row"><button id="ck">Prüfen</button></div><div id="o"></div></div></section>
+<section id="grenzen"><h2>Grenzen und Einordnung</h2><div class='note'>Die Arbeit gibt den Stand 2023 wieder. Suchmaschinen ändern ihre Bewertung laufend, Richtwerte sind keine Garantie für ein besseres Ranking. Der Check prüft nur die übergebene Seite und keine Inhalte, Verlinkung oder Ladezeit.</div></section>
+<section id="unterlagen"><h2>Unterlagen</h2>
+<ul class="clean"><li><a href="Artikel_SEO.pdf">Fachartikel (PDF)</a> mit Quellenangaben · <a href="Artikel_SEO.md">Markdown</a></li>
+<li><a href="SEO_Suchmaschinenoptimierung.pdf">Präsentation (PDF)</a></li>
+<li><a href="https://github.com/TBayrem/suchmaschinenoptimierung-grundlagen">Repository auf GitHub</a></li></ul></section>
+</main>
+<footer><div class="wrap">Bayrem Trabelsi · M.Sc. Wirtschaftsinformatik, Hochschule Worms · <a href="https://github.com/TBayrem">github.com/TBayrem</a><br>Der Quelltext wird nur im Browser ausgewertet.</div></footer>
+<script>
+
+document.getElementById('h').value='<!doctype html>\n<html lang="de">\n<head>\n<title>Suchmaschinenoptimierung für kleine Unternehmen</title>\n<meta name="description" content="Wie kleine Unternehmen mit einfachen Mitteln besser gefunden werden.">\n<meta name="viewport" content="width=device-width,initial-scale=1">\n</head>\n<body>\n<h1>SEO für kleine Unternehmen</h1>\n<h2>Keywords finden</h2>\n<img src="a.png">\n<img src="b.png" alt="Diagramm">\n</body></html>';
+function chk(){const d=new DOMParser().parseFromString(h.value,'text/html'),R=[];
+const t=(d.title||'').trim();R.push([t?(t.length>=30&&t.length<=60?'ok':'warn'):'bad','Titel: '+(t?t.length+' Zeichen (Richtwert 30 bis 60)':'fehlt')]);
+const m=d.querySelector('meta[name=description]'),ml=m?(m.content||'').length:0;R.push([m?(ml>=70&&ml<=160?'ok':'warn'):'bad','Meta-Beschreibung: '+(m?ml+' Zeichen (Richtwert 70 bis 160)':'fehlt')]);
+const h1=d.querySelectorAll('h1').length;R.push([h1==1?'ok':'bad','H1-Überschriften: '+h1+' (empfohlen: genau eine)']);
+const im=[...d.querySelectorAll('img')],na=im.filter(i=>!(i.getAttribute('alt')||'').trim()).length;R.push([na?'warn':'ok','Bilder ohne Alt-Text: '+na+' von '+im.length]);
+R.push([d.documentElement.lang?'ok':'warn','Sprachangabe (lang): '+(d.documentElement.lang||'fehlt')]);
+R.push([d.querySelector('meta[name=viewport]')?'ok':'warn','Viewport für mobile Darstellung: '+(d.querySelector('meta[name=viewport]')?'vorhanden':'fehlt')]);
+R.push([d.querySelector('link[rel=canonical]')?'ok':'warn','Canonical-Link: '+(d.querySelector('link[rel=canonical]')?'vorhanden':'fehlt (optional)')]);
+const hs=[...d.querySelectorAll('h1,h2,h3,h4')].map(x=>+x.tagName[1]);let skip=hs.some((v,i)=>i&&v>hs[i-1]+1);R.push([skip?'warn':'ok','Überschriftenhierarchie: '+(skip?'Ebene übersprungen':'ohne Sprung')]);
+const sc=R.filter(r=>r[0]=='ok').length;o.innerHTML='<p><b>'+sc+' von '+R.length+' Punkten in Ordnung</b></p>'+R.map(r=>'<div class="'+(r[0]=='ok'?'good':r[0]=='warn'?'warnc':'badc')+'">'+(r[0]=='ok'?'✔':r[0]=='warn'?'!':'✖')+' '+r[1]+'</div>').join('')}
+document.getElementById('ck').onclick=chk;chk();
+
+</script></body></html>

@@ -1,5 +1,7 @@
 # Suchmaschinenoptimierung (SEO): Grundlagen und Praxis
 
+**Webseite mit Prototyp zum Ausprobieren:** https://tbayrem.github.io/suchmaschinenoptimierung-grundlagen/
+
 Seminararbeit im Bachelor Wirtschaftsinformatik (Hochschule Ludwigshafen, 15.01.2023 bis 14.03.2023, Betreuung: Prof. Dr. Rohleder) von Bayrem Trabelsi.
 
 ## Inhalt
